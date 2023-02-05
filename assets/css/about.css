@@ -8,6 +8,10 @@
     padding-top: 40px;
 }
 
+.container__about-img{
+    
+}
+
 .container__about-desc p:nth-child(2),
 .container__about-desc p:nth-child(3){
     margin: 8px 0;

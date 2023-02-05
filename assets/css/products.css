@@ -1,8 +1,9 @@
 .content__product-heading{
     text-align: center;
+    color: var(--text-color);
     font-size: 4.6rem;
     font-family: "Playfair Display", serif;
-    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .content__container-img-and-text{

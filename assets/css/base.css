@@ -6,6 +6,10 @@
     --background-color: rgba(207, 205, 205, 0.418);
 }
 
+.navbar__menu-item{
+    display: none;
+}
+
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;

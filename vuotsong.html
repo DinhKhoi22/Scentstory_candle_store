@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/products.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,19 @@
     <div class="main">
         <div class="grid">
             <div id="header">
+                <label for="navbar__mobile-input" class="navbar__menu-item c-12">
+                    <div href="" class="navbar__menu">
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                    </div>
+                </label>
+
+                <input type="checkbox" class="navbar__input" hidden name="navbar__input" id="navbar__mobile-input">
+                <label for="navbar__mobile-input" class="navbar__overlay"></label>
+
                 <div class="navbar">
+                    <label for="navbar__mobile-input" class="navbar__mobile-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
                     <a href="index.html" class="navbar__item navbar__item-text l-2 m-3 c-0">Home</a> 
                     <a href="about.html" class="navbar__item navbar__item-text l-2 m-3 c-0">About</a> 
                     <a href="product.html" class="navbar__item navbar__item-text l-2 m-3 c-0">Products</a> 
@@ -75,12 +88,12 @@
                             </div>
 
                             <div class="content__container-product">
-                                <img src="./img/Vượt sóng/2.JPG" alt="" class="content__container-product-img">
-                                <img src="./img/Vượt sóng/3.JPG" alt="" class="content__container-product-img">
-                                <img src="./img/Vượt sóng/4.JPG" alt="" class="content__container-product-img">
-                                <img src="./img/Vượt sóng/5.JPG" alt="" class="content__container-product-img">
-                                <img src="./img/Vượt sóng/6.JPG" alt="" class="content__container-product-img">
-                                <img src="./img/Vượt sóng/7.JPG" alt="" class="content__container-product-img">
+                                <img src="./img/Vượt sóng/2.JPG" alt="" class="content__container-product-img c-12">
+                                <img src="./img/Vượt sóng/3.JPG" alt="" class="content__container-product-img c-12">
+                                <img src="./img/Vượt sóng/4.JPG" alt="" class="content__container-product-img c-12">
+                                <img src="./img/Vượt sóng/5.JPG" alt="" class="content__container-product-img c-12">
+                                <img src="./img/Vượt sóng/6.JPG" alt="" class="content__container-product-img c-12">
+                                <img src="./img/Vượt sóng/7.JPG" alt="" class="content__container-product-img c-12">
                             </div>
                         </div>
 
@@ -123,7 +136,7 @@
                                     </div>
                                 </div>
 
-                                <div class="footer__contact-others l-o-1 m-o-1">
+                                <div class="footer__contact-others l-o-1 m-o-1 c-o-1">
                                     <div class="contact-to1">
                                         You can find us in:
                                         <div class="footer__contact-others-link">

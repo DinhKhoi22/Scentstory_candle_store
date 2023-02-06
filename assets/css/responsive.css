@@ -3,6 +3,10 @@
         overflow: hidden;
     }
 
+    label.navbar__mobile-close {
+        display: block;
+    }
+
     .navbar__menu-item{
         display: block;
     }

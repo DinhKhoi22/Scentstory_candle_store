@@ -1,4 +1,9 @@
 @media (max-width: 739px){
+    .c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
     .main{
         overflow: hidden;
     }
